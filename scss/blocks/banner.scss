@@ -33,7 +33,12 @@
 		@include btn($values...) {
 			padding: 20px 0;
 			margin: 35px auto 0;
-		};	
+		};
+
+		&:hover {
+			background: $black;
+			color: $white;
+		}	
 	}
 }
 

@@ -221,8 +221,8 @@ body {
      -moz-appearance: none;
           appearance: none;
   -webkit-transition-duration: 0,5s;
-          -o-transition-duration: 0,5s;
-     transition-duration: 0,5s;
+       -o-transition-duration: 0,5s;
+          transition-duration: 0,5s;
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
@@ -331,8 +331,8 @@ body {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 .slider .slider__btn {
   width: 114px;
@@ -364,8 +364,8 @@ body {
   top: 50%;
   cursor: pointer;
   -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 .slider .owl-nav button.owl-prev:focus, .slider .owl-nav button.owl-next:focus {
   outline: none;
@@ -499,7 +499,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 50px 0 	25px;
+  margin: 50px 0  25px;
 }
 .offers .offers__left, .offers .offers__right {
   display: -webkit-box;
@@ -724,6 +724,10 @@ body {
 .banner a:hover {
   background-color: white;
 }
+.banner a:hover {
+  background: #000;
+  color: #fff;
+}
 
 .banner--left {
   background: url("../img/banner2.jpg") left center no-repeat #d7dbd5;
@@ -829,8 +833,8 @@ body {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          -ms-transform: translateX(-50%);
-      transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   bottom: 20px;
   width: 175px;
   color: #fff;
@@ -954,6 +958,10 @@ body {
 .featured .featured__btn:hover {
   background-color: rgba(38, 38, 38, 0);
 }
+.featured .featured__btn:hover {
+  background: #d9c8aa;
+  color: #fff;
+}
 .featured .owl-nav button.owl-prev, .featured .owl-nav button.owl-next {
   background: url("../img/sprite-arrow2.png") 0 0 no-repeat;
   width: 49px;
@@ -966,8 +974,8 @@ body {
   top: calc(50% - 49px);
   cursor: pointer;
   -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 .featured .owl-nav button.owl-prev:focus, .featured .owl-nav button.owl-next:focus {
   outline: none;
@@ -1031,8 +1039,8 @@ body {
   width: calc(100% - 70px);
   margin: 0 auto;
   -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
   text-align: center;
   background: #fff;
   padding: 15px 0;
